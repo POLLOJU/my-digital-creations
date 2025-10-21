@@ -50,7 +50,7 @@ const About = () => {
             {experiences.map((exp, index) => (
               <Card
                 key={index}
-                className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-[var(--shadow-glow)] animate-fade-in-up"
+                className="bg-card/50 backdrop-blur-sm border-primary/40 hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-glow)] animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <CardContent className="p-6 space-y-4">
@@ -82,7 +82,7 @@ const About = () => {
           </div>
 
           {/* Awards */}
-          <Card className="bg-card/50 backdrop-blur-sm border-border/50 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+          <Card className="bg-card/50 backdrop-blur-sm border-primary/40 hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-glow)] animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             <CardContent className="p-6 space-y-4">
               <div className="flex items-center gap-3">
                 <div className="p-3 rounded-lg bg-accent/10 text-accent">
