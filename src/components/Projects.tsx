@@ -17,7 +17,7 @@ import twitterCloneImg from "@/assets/projects/twitter-clone.png";
 import foodMunchImg from "@/assets/projects/food-munch.png";
 import toyStoreImg from "@/assets/projects/toy-store.png";
 
-type ProjectType = "mobile" | "web" | "personal";
+type ProjectType = "mobile" | "web";
 
 interface Project {
   title: string;
@@ -102,21 +102,21 @@ const Projects = () => {
     {
       title: "Twitter Clone",
       description: "Full-featured backend project implementing Twitter-like functionality with RESTful APIs and Node.js.",
-      type: "personal",
+      type: "web",
       technologies: ["Node.js", "REST APIs", "Express", "MongoDB"],
       imageUrl: twitterCloneImg,
     },
     {
       title: "Food Munch Restaurant",
       description: "Responsive web page for a restaurant with modern design, menu showcase, and online ordering interface.",
-      type: "personal",
+      type: "web",
       technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
       imageUrl: foodMunchImg,
     },
     {
       title: "Toy Store Search App",
       description: "Serverless toy store built with Google Cloud services, featuring Vertex AI Search for intelligent product recommendations.",
-      type: "personal",
+      type: "web",
       technologies: ["Cloud Run", "Firebase", "Vertex AI", "Google Cloud"],
       imageUrl: toyStoreImg,
     },
@@ -130,7 +130,6 @@ const Projects = () => {
     { value: "all", label: "All Projects" },
     { value: "mobile", label: "Mobile Apps" },
     { value: "web", label: "Web Apps" },
-    { value: "personal", label: "Personal" },
   ];
 
   return (
@@ -175,7 +174,7 @@ const Projects = () => {
               return (
                 <Card
                   key={index}
-                  className={`bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-[var(--shadow-glow)] group animate-fade-in-up overflow-hidden ${
+                  className={`bg-card/50 backdrop-blur-sm border-primary/40 hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-glow)] group animate-fade-in-up overflow-hidden ${
                     isMobile ? "md:col-span-1" : ""
                   }`}
                   style={{ animationDelay: `${index * 0.1}s` }}
