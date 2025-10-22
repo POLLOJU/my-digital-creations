@@ -40,7 +40,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-center text-sm text-muted-foreground">
-            <p>&copy; {currentYear} Pollloju Sai Kiran. All rights reserved.</p>
+            <p>&copy; {currentYear} Polloju Sai Kiran. All rights reserved.</p>
           </div>
         </div>
       </div>
