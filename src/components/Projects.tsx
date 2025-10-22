@@ -188,7 +188,7 @@ const Projects = () => {
                           alt={project.title}
                           className={`w-full object-cover transition-transform duration-300 group-hover:scale-105 ${
                             isMobile 
-                              ? 'h-[400px] w-auto max-w-[200px] mx-auto rounded-2xl shadow-2xl' 
+                              ? 'h-[320px] w-auto max-w-[180px] mx-auto rounded-2xl shadow-2xl' 
                               : 'h-[200px] object-top'
                           }`}
                         />

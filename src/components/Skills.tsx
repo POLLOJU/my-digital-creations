@@ -42,7 +42,7 @@ const Skills = () => {
             {skillCategories.map((category, index) => (
               <Card
                 key={index}
-                className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-[var(--shadow-glow)] animate-fade-in-up"
+                className="bg-card/50 backdrop-blur-sm border-primary/40 hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-glow)] animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="p-6 space-y-4">

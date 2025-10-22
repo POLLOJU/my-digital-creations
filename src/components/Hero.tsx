@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-[image:var(--gradient-primary)] rounded-full blur-xl opacity-50"></div>
             <img
               src={profilePhoto}
-              alt="Pollloju Sai Kiran"
+              alt="Polloju Sai Kiran"
               className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary shadow-[var(--shadow-glow)] animate-float"
             />
           </div>
@@ -33,7 +33,7 @@ const Hero = () => {
           {/* Name and Title */}
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold bg-clip-text text-transparent bg-[image:var(--gradient-primary)]">
-              Pollloju Sai Kiran
+              Polloju Sai Kiran
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground">
               Full Stack Engineer & App Developer
